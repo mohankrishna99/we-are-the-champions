@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('fonts/JosefinSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b1924;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    max-width: 320px;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#input {
+    color: #8f8f8f;
+    background-color: #444059;
+    border: 0;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    width: 317px;
+    height: 118px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+#from, #to {
+    color: #8f8f8f;
+    background-color: #444059;
+    border: 0;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    margin: 10px 0;
+    width: 150px;
+    height: 40px;
+}
+
+button {
+    background-color: #28a9f1;
+    color: #04131c;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 22px;
+    text-align: center;
+    width: 317px;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ffffff;
+    color: #1b1924;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    width: 317px;
+    margin: 0px;
+    padding: 5px;
+}
